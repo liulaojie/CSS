@@ -35,9 +35,9 @@ form{
     float: right;
     width: 410px;
     height: 420px;
-
+    border:0px;
 }
-form label{
+label{
     font:bold 16px "宋体";
     float: right;
     margin-top: 60px;
@@ -48,7 +48,7 @@ form label{
     width: 250px;
     clear: right;
 }
-form input[type=text]{
+input[type=text]{
     float: right;
     margin-top: 20px;
     margin-right: 80px;
@@ -56,6 +56,13 @@ form input[type=text]{
     height: 34px;
     width: 250px;
     clear: right;
+    border: 3px solid #ccc;
+    outline:none;
+}
+input[type=text]:focus {
+
+border:3px solid #ccc;
+
 }
 a{
     font: 14px "宋体";
@@ -65,7 +72,7 @@ a{
     margin-right: 80px;
     clear: right;
 }
-form input[type=submit]{
+input[type=submit]{
     float: right;
     margin-top: 60px;
     margin-right: 88px;
@@ -74,12 +81,10 @@ form input[type=submit]{
     width: 250px;
     clear: right;
     background-image: linear-gradient(to right, #0a31a2 , #4285eb);
-    border: 0px;
+    border:0px;
     border-radius: 20px;
     color: #ffffff;
     font:bold 14px "宋体";
     cursor:pointer;
 }
-form input[type=submit]:hover{
 
-}
