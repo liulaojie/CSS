@@ -9,8 +9,8 @@ body{
     margin: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(150, 255, 255, 0.31) url("images/bg.png")  no-repeat fixed;
-
+    background: rgba(150, 255, 255, 0.31) url("images/bg.png")  no-repeat fixed ;
+    background-size:contain;
 }
 
 .form{
@@ -23,6 +23,7 @@ body{
     margin-left: -410px;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
+    box-shadow:5px 0px #b4b4b4;
 }
 img{
     float: left;
@@ -77,4 +78,8 @@ form input[type=submit]{
     border-radius: 20px;
     color: #ffffff;
     font:bold 14px "宋体";
+    cursor:pointer;
+}
+form input[type=submit]:hover{
+
 }
