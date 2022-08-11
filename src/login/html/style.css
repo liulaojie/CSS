@@ -1,0 +1,80 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(150, 255, 255, 0.31) url("images/bg.png")  no-repeat fixed;
+
+}
+
+.form{
+    height: 420px;
+    width: 820px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -210px;
+    margin-left: -410px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+img{
+    float: left;
+    height: 310px;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+form{
+    float: right;
+    width: 410px;
+    height: 420px;
+
+}
+form label{
+    font:bold 16px "宋体";
+    float: right;
+    margin-top: 60px;
+    margin-right: 87px;
+    margin-bottom: -20px;
+    display: block;
+    height: 34px;
+    width: 250px;
+    clear: right;
+}
+form input[type=text]{
+    float: right;
+    margin-top: 20px;
+    margin-right: 80px;
+    display: block;
+    height: 34px;
+    width: 250px;
+    clear: right;
+}
+a{
+    font: 14px "宋体";
+    color: #0085e3;
+    float: right;
+    margin-top: 20px;
+    margin-right: 80px;
+    clear: right;
+}
+form input[type=submit]{
+    float: right;
+    margin-top: 60px;
+    margin-right: 88px;
+    display: block;
+    height: 34px;
+    width: 250px;
+    clear: right;
+    background-image: linear-gradient(to right, #0a31a2 , #4285eb);
+    border: 0px;
+    border-radius: 20px;
+    color: #ffffff;
+    font:bold 14px "宋体";
+}
