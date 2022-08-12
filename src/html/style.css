@@ -102,7 +102,7 @@ li a:active,.active{
  font-weight: bold;
  width:752px
  color:#747474;
- text-indent: 32px;
+ text-indent: 2em;
  line-height:24px;
  }
  .other{
@@ -143,6 +143,33 @@ width:96px;
 th:nth-child(7){
 width:96px;
 }
+.a{
+    display:table-cell;
+    height: 40px;
+    line-height: 40px;}
+.arr{
+height:40px;
+float:right;
+position:relative;
+top:8px;
+}
+.arrUp{
+width: 0;
+height: 0;
+border: 6px solid transparent;
+border-bottom-color: #ccc;
+cursor: pointer;
+}
+.arrDown{
+margin-top:2px;
+width: 0;
+height: 0;
+border: 6px solid transparent;
+border-bottom-color: #ccc;
+cursor: pointer;
+transform:rotate(180deg)
+}
+
 td{
     font:13px "Sofia";
     text-align: left;
